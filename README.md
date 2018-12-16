@@ -8,6 +8,10 @@ para consultar as informações da pessoa física.
 
 Para a base B e para a base C segue a mesma lógica da base A.
 
+Api Root
+The default basic root view for DefaultRouter
+
+GET /
 HTTP 200 OK
 Allow: GET, HEAD, OPTIONS
 Content-Type: application/json
@@ -18,4 +22,3 @@ Vary: Accept
     "sacados": "http://127.0.0.1:8000/sacados/",
     "cedentes": "http://127.0.0.1:8000/cedentes/",
     "enderecos": "http://127.0.0.1:8000/enderecos/"
-}
