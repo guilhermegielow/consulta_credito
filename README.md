@@ -7,3 +7,15 @@ Para consultar um CPF deve-se usar por exemplo o endereço http://127.0.0.1:8000
 para consultar as informações da pessoa física.
 
 Para a base B e para a base C segue a mesma lógica da base A.
+
+HTTP 200 OK
+Allow: GET, HEAD, OPTIONS
+Content-Type: application/json
+Vary: Accept
+
+{
+    "dividas": "http://127.0.0.1:8000/dividas/",
+    "sacados": "http://127.0.0.1:8000/sacados/",
+    "cedentes": "http://127.0.0.1:8000/cedentes/",
+    "enderecos": "http://127.0.0.1:8000/enderecos/"
+}
